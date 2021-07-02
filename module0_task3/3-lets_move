@@ -2,6 +2,6 @@
 
 for i in $(ls -p | grep -v / | grep '^[A-Z]');
 do
-        mv $i tmp/u
+        mv $i /tmp/u
 done
 
